@@ -156,3 +156,17 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
 testMultiplyAnyArray(testDynamicArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
+
+let q1 = testSum();
+let q2 = testMultiply();
+let q3 = testSumAndMultiply();
+let q4 = testSumArray();
+let q5 = testMultiplyArray();
+let q6 = testMultiplyAnyArray();
+
+document.getElementById('q1').innerHTML = q1;
+document.getElementById('q2').innerHTML = q2;
+document.getElementById('q3').innerHTML = q3;
+document.getElementById('q4').innerHTML = q4;
+document.getElementById('q5').innerHTML = q5;
+document.getElementById('q6').innerHTML = q6;
